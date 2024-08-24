@@ -1,0 +1,58 @@
+.input{
+    border: none;
+    background: transparent;
+    width: 80%;
+    height: 40px;
+    margin-left: 10px;
+}
+.input:focus{
+    outline: none;
+}
+.addButton{
+    border: none !important;
+    background-color: rgb(27, 177, 27) !important;
+    box-shadow: 0px 0px 10px 0px rgb(185, 185, 185) !important
+}
+.addButton:hover{
+    background-color: rgb(24, 157, 24) !important
+}
+.addTodo{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.addTodo div{
+    display: flex;
+    align-items: center;
+    width: 70%;
+    height: 50px;
+    border-radius: 5px;
+}
+.addTodo Button{
+    margin-right: 10px;
+}
+.addTodo p{
+    margin: 10px;
+    font-size: small;
+}
+.time-delete{
+    display: flex;
+    justify-content: end;
+}
+.add{
+    display: flex;
+    justify-content: end;
+}
+.check-list input{
+    margin: 10px;
+}
+.check-list{
+    margin-bottom: 10px;
+}
+.addTodo>div{
+    box-shadow: 0px 0px 10px 3px rgb(212, 207, 207);
+}
+.deleteButton{
+    box-shadow: 0px 0px 10px 0px rgb(185, 185, 185) !important
+}
