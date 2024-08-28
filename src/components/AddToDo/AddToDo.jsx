@@ -15,7 +15,7 @@ function AddToDo() {
             <input value={toDo} onChange={(e)=>setToDo(e.target.value)} className='input' type="text" placeholder=' 🖋️ Add toDo ....' />
         </div> 
        <div className='add'>
-        <Button className='addButton' onClick={()=>setToDos([...toDos,{id:Date.now(),text:toDo,time:d.toLocaleTimeString(),status:false}],setToDo(""))} size='sm' >Add</Button>
+        <Button className='addButton' onClick={()=>{if(toDo.trim()){setToDos([...toDos,{id:Date.now(),text:toDo,time:d.toLocaleTimeString(),status:false}],setToDo(""))}}} size='sm' >Add</Button>
         </div>
        </div>
        <br />
